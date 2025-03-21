@@ -22,3 +22,5 @@ const uploadOnCloudinary = async (localFilePath) => {
     fs.unlinkSync(localFilePath); ///? ye remove karega temporary stored file agar upload operation failed hojaye
   }
 };
+
+export { uploadOnCloudinary };
